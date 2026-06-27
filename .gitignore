@@ -33,7 +33,7 @@ reconstructions/
 *.safetensors
 
 # Data
- data/
+data/
 datasets/
 *.h5
 *.hdf5
