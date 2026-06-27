@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.eggs/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda-meta/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+wandb/
+outputs/
+runs/
+
+# Model checkpoints and generated files
+checkpoints/
+pretrained/
+results/
+reconstructions/
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+
+# Data
+ data/
+datasets/
+*.h5
+*.hdf5
+*.nii
+*.nii.gz
+*.mgz
+*.npy
+*.npz
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
