@@ -1,28 +1,24 @@
 # Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping
 
+![Overview](assets/abstract.png)
+
 
 ## News
 
+- **Coming soon**: More documentation, checkpoints, and usage examples will be added.
+- **Coming soon**: Training and inference code will be released progressively.
 - [**Jun 18, 2026**]: Our paper has been accepted to **ECCV 2026**! 🎉
 - [**Jun 18, 2026**]: The **Hi-DREAM** project is now publicly available.
-- **Coming soon**: Training and inference code will be released progressively.
-- **Coming soon**: More documentation, checkpoints, and usage examples will be added.
 
 ## Hi-Dream
 
 **Hi-DREAM** is a research project for hierarchical fMRI-to-image reconstruction. The project explores how signals from different visual cortical regions can be mapped to different levels of a generative image model, enabling more structured and semantically meaningful image reconstruction from human brain activity.
 
-> This repository is currently being prepared for public release. Full training and inference code will be added progressively.
+![Hi-Dream](assets/model.png)
 
-## Overview
+## Result
 
-Hi-DREAM aims to reconstruct visual images from fMRI responses by combining:
-
-- **Hierarchical visual ROI conditioning**: early, middle, and high-level visual areas are used as separate condition streams.
-- **Depth-aligned generative injection**: different ROI groups are injected into different depths of a diffusion-based image generator.
-- **Diffusion-based reconstruction**: a latent diffusion backbone is used to generate natural images conditioned on brain activity.
-
-The main idea is that the human visual hierarchy and the generative model hierarchy can be aligned: lower-level visual areas provide structural and spatial cues, while higher-level regions contribute semantic information.
+![Result](assets/result.png)
 
 ## Project Structure
 
@@ -77,11 +73,11 @@ For public datasets such as NSD, users should follow the original dataset access
 
 ## Citation
 
-If you find this project useful, please consider citing the corresponding paper once it is available.
+If you find this project useful, please consider citing the corresponding paper once it is available. 
 
 ```bibtex
 @inproceedings{zhang2026hidream,
-  title     = {Hi-DREAM: Hierarchical fMRI-to-Image Reconstruction with Depth-Aligned Diffusion Conditioning},
+  title     = {Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping},
   author    = {Zhang, Guowei and others},
   booktitle = {European Conference on Computer Vision},
   year      = {2026}
