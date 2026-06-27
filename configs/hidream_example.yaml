@@ -1,0 +1,42 @@
+project:
+  name: Hi-DREAM
+  description: Hierarchical fMRI-to-image reconstruction with depth-aligned diffusion conditioning
+
+seed: 42
+
+data:
+  dataset_name: nsd
+  data_root: /path/to/dataset
+  subject: subj01
+  roi_groups:
+    early: [V1, V2]
+    middle: [V3, hV4]
+    late: [LOC, FFA]
+
+model:
+  diffusion_backbone: runwayml/stable-diffusion-v1-5
+  controlnet_backbone: lllyasviel/sd-controlnet-canny
+  latent_resolution: 64
+  condition_streams: [early, middle, late]
+  injection_depths:
+    early: shallow
+    middle: middle
+    late: deep
+
+training:
+  batch_size: 1
+  num_steps: 18000
+  learning_rate_adapter: 1.0e-4
+  learning_rate_unet: 1.0e-5
+  weight_decay: 1.0e-2
+  mixed_precision: fp16
+  output_dir: outputs/hidream_example
+
+inference:
+  num_steps: 50
+  guidance_scale: 7.5
+  condition_scale: 1.0
+  depth_scales:
+    early: 1.2
+    middle: 0.6
+    late: 0.3
