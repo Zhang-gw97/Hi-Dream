@@ -1,0 +1,27 @@
+name: hi-dream
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - pytorch-cuda=11.8
+  - numpy
+  - scipy
+  - pandas
+  - scikit-learn
+  - scikit-image
+  - pillow
+  - pyyaml
+  - tqdm
+  - matplotlib
+  - h5py
+  - nibabel
+  - pip:
+      - diffusers
+      - transformers
+      - accelerate
