@@ -1,4 +1,4 @@
-# Hi-DREAM
+# Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping
 
 **Hi-DREAM** is a research project for hierarchical fMRI-to-image reconstruction. The project explores how signals from different visual cortical regions can be mapped to different levels of a generative image model, enabling more structured and semantically meaningful image reconstruction from human brain activity.
 
