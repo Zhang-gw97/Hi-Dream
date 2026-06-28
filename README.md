@@ -16,9 +16,6 @@
 
 ![Hi-Dream](assets/model.png)
 
-## Result
-
-![Result](assets/result.png)
 
 ## Project Structure
 
@@ -33,6 +30,11 @@ Hi-Dream/
 ├── requirements.txt
 └── README.md
 ```
+
+## Result
+
+![Result](assets/result.png)
+
 
 ## Installation
 
