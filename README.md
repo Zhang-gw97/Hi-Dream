@@ -76,9 +76,9 @@ For public datasets such as NSD, users should follow the original dataset access
 If you find this project useful, please consider citing the corresponding paper once it is available. 
 
 ```bibtex
-@inproceedings{zhang2026hidream,
+@inproceedings{zhang2026hi,
   title     = {Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping},
-  author    = {Zhang, Guowei and others},
+  author    = {Zhang, Guowei and Zhao, Yun and Khajehnejad, Moein and Razi, Adeel and Kuhlmann, Levin}
   booktitle = {European Conference on Computer Vision},
   year      = {2026}
 }
