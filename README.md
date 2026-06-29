@@ -80,7 +80,7 @@ If you find this project useful, please consider citing the corresponding paper 
 ```bibtex
 @inproceedings{zhang2026hi,
   title     = {Hi-DREAM: Brain-Inspired Hierarchical Diffusion for fMRI-to-Image Reconstruction via ROI Encoder and VisuAl Mapping},
-  author    = {Zhang, Guowei and Zhao, Yun and Sun, Kai and Khajehnejad, Moein and Razi, Adeel and Phung, Dinh and Kuhlmann, Levin}
+  author    = {Zhang, Guowei and Zhao, Yun and Sun, Kai and Khajehnejad, Moein and Razi, Adeel and Phung, Dinh and Kuhlmann, Levin},
   booktitle = {European Conference on Computer Vision},
   year      = {2026}
 }
