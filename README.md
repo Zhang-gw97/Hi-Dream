@@ -7,8 +7,6 @@
 
 - [**Jun 18, 2026**]: Our paper has been accepted to **ECCV 2026**! 🎉
 - [**Jun 18, 2026**]: The **Hi-DREAM** project is now publicly available.
-- **Coming soon**: More documentation, checkpoints, and usage examples will be added.
-- **Coming soon**: Training and inference code will be released progressively.
 
 
 ## Hi-Dream
@@ -86,11 +84,3 @@ If you find this project useful, please consider citing the corresponding paper 
   year      = {2026}
 }
 ```
-
-## License
-
-The license will be added before the full code release.
-
-## Contact
-
-For questions, please open an issue or contact the project maintainer.
