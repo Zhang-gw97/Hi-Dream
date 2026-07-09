@@ -1,0 +1,17 @@
+accelerate
+clip @ git+https://github.com/openai/CLIP.git
+diffusers
+h5py
+matplotlib
+nibabel
+nilearn
+numpy
+pandas
+pillow
+pycocotools
+scikit-image
+scipy
+torch
+torchvision
+tqdm
+transformers
