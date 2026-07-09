@@ -21,9 +21,8 @@
 ```text
 Hi-Dream/
 ├── configs/                 # Example configuration files
-├── docs/                    # Project notes and documentation
 ├── scripts/                 # Training and inference entry points
-├── src/hi_dream/            # Core package code
+├── src                      # Core package code
 ├── .gitignore
 ├── environment.yml
 ├── requirements.txt
