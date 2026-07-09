@@ -73,7 +73,7 @@ For public datasets such as NSD, users should follow the original dataset access
 
 ## Citation
 
-If you find this project useful, please consider citing the corresponding paper once it is available. 
+If you find this project useful, please cite:
 
 ```bibtex
 @inproceedings{zhang2026hi,
